@@ -12,19 +12,28 @@
   <body>
     <header class ="row">
       <div class = "col-3">
-        LOGO
+        <div class="circle">
+          <br />
+            THE BEST
+          <br />
+            IN SAN
+          <br />
+            DIEGO
+        </div>
       </div>
-      <div class = "col-4">
+      <div class = "col-4 slogan">
         Recommending the best restauraunts since 2019
       </div>
-      <div class="col-5">
+      <div class="col-5 links">
         <%= link_to 'Contribute', '#' %>
         <%= link_to 'About', '#' %>
       </div>
     </header>
 
+  </hr>
+
     <br class="clear"/>
-    
+
     <%= yield %>
   </body>
 </html>
